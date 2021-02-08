@@ -138,10 +138,7 @@ def checkForTestCase(testcase):
             roots_find(a,b,c)
 
             break
-        print("Test Case",testcase)
-        print(a,b,c)
-        roots_find(a,b,c)
-        testcase+=1
+
 
 if __name__ == '__main__':
     testcase=int(input("Plese provide test number"))
